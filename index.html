@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sudarson C – Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;<span>Sudarson</span> /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1 class="hero-name">
+        Sudarson<br>
+        <span class="highlight">C.</span>
+      </h1>
+      <p class="hero-role" id="heroRole">// Full-Stack Developer &amp; Embedded Systems Engineer</p>
+      <p class="hero-desc">
+        B.E Electronics &amp; Communication student building production-grade web applications,
+        AI-powered systems and embedded IoT products. Turning ideas into real products.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">6+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Internships</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">2027</div>
+          <div class="stat-label">Graduating</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <a href="https://linkedin.com/in/sudarson6666" target="_blank" class="social-pill">
+        <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/sudarson66" target="_blank" class="social-pill">
+        <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+      <a href="mailto:sudarson6066@gmail.com" class="social-pill">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="section-label">01 / About</div>
+    <h2 class="section-title reveal">Who I <span>Am</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Sudarson C</strong>, a passionate developer pursuing B.E in Electronics and Communication Engineering at <strong>Dhanalakshmi Srinivasan Engineering College, Perambalur</strong> (2023–2027).</p>
+        <p>I bridge the gap between hardware and software — from building responsive MERN-stack web apps and AI-powered surveillance systems to programming microcontrollers and embedded IoT devices.</p>
+        <p>I've completed internships at <strong>BSNL</strong> (telecom &amp; networking), <strong>Novitech</strong> (MERN stack &amp; UI/UX), and have freelanced real client websites that are live today.</p>
+        <p>I have a <strong>product mindset</strong> — I don't just build demos, I commercialise. My AI surveillance project is currently at product stage.</p>
+        <div class="interest-tags">
+          <span class="tag">Full Stack</span>
+          <span class="tag">AI / Vision</span>
+          <span class="tag">Embedded &amp; IoT</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Backend Engineering</span>
+          <span class="tag">UI/UX Design</span>
+        </div>
+      </div>
+      <div class="about-card-area">
+        <div class="info-card reveal delay-1">
+          <h4>🎓 Education</h4>
+          <p>B.E, ECE — Dhanalakshmi Srinivasan Engineering College<br><span>Perambalur | 2023 – 2027</span></p>
+        </div>
+        <div class="info-card reveal delay-2">
+          <h4>📍 Location</h4>
+          <p>Tamil Nadu, India<br><span>Open to remote &amp; on-site opportunities</span></p>
+        </div>
+        <div class="info-card reveal delay-3">
+          <h4>📧 Contact</h4>
+          <p>sudarson6066@gmail.com<br><span>+91 94868 12326</span></p>
+        </div>
+        <div class="info-card reveal delay-4">
+          <h4>💡 Currently Building</h4>
+          <p>AI-Based Surveillance Camera System<br><span>Product stage — real-time threat detection</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="section-label">02 / Skills</div>
+    <h2 class="section-title reveal">Technical <span>Arsenal</span></h2>
+    <div class="skills-grid">
+      <div class="skill-category reveal delay-1">
+        <div class="skill-cat-title">Frontend</div>
+        <div class="skill-chips">
+          <span class="chip">HTML5</span><span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span><span class="chip">React.js</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-2">
+        <div class="skill-cat-title">Backend</div>
+        <div class="skill-chips">
+          <span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-3">
+        <div class="skill-cat-title">Database</div>
+        <div class="skill-chips">
+          <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-1">
+        <div class="skill-cat-title">Programming</div>
+        <div class="skill-chips">
+          <span class="chip">Java</span><span class="chip">Python</span><span class="chip">Embedded C</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-2">
+        <div class="skill-cat-title">Embedded &amp; IoT</div>
+        <div class="skill-chips">
+          <span class="chip">Arduino</span><span class="chip">RFID</span>
+          <span class="chip">Gyroscope</span><span class="chip">MCU</span><span class="chip">IR Sensors</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-3">
+        <div class="skill-cat-title">AI &amp; Vision</div>
+        <div class="skill-chips">
+          <span class="chip">OpenCV</span><span class="chip">Computer Vision</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-1">
+        <div class="skill-cat-title">Networking</div>
+        <div class="skill-chips">
+          <span class="chip">Computer Networks</span><span class="chip">TCP/IP</span><span class="chip">Protocols</span>
+        </div>
+      </div>
+      <div class="skill-category reveal delay-2">
+        <div class="skill-cat-title">Tools &amp; Design</div>
+        <div class="skill-chips">
+          <span class="chip">VS Code</span><span class="chip">Git</span>
+          <span class="chip">GitHub</span><span class="chip">Figma</span><span class="chip">Wireframing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-label">03 / Projects</div>
+    <h2 class="section-title reveal">Things I've <span>Built</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal delay-1">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-dev">In Development</span>
+          <span class="project-icon">🎥</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">AI-Based Surveillance Camera</h3>
+          <p class="project-desc">Real-time AI-driven threat and motion detection system with a full-stack monitoring dashboard. Automated alert pipeline for suspicious activity notifications.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span><span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">Computer Vision</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span>
+          </div>
+          <span class="project-link">Product Stage ✦ AI-Powered</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-2">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-done">Live</span>
+          <span class="project-icon">⚽</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">R Sports Cafe – Client Website</h3>
+          <p class="project-desc">Fully responsive website for a real sports cafe business — menu showcase, gallery, contact sections with smooth navigation and mobile-first JavaScript interactions.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span>
+          </div>
+          <a href="https://sudarson66.github.io/sportscafee/" target="_blank" class="project-link">View Live →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-3">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-done">Live</span>
+          <span class="project-icon">💊</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Vitamax – Health Products Website</h3>
+          <p class="project-desc">E-commerce style website for a health products client. Clean product catalog UI, call-to-action sections, inquiry form, fully responsive desktop and mobile.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span>
+          </div>
+          <a href="https://sudarson66.github.io/vitamax/" target="_blank" class="project-link">View Live →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-1">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-done">Live</span>
+          <span class="project-icon">🎆</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Sakthivel Crackers – Business Website</h3>
+          <p class="project-desc">Business website with festive-themed UI showcasing products, offers, and contact details. Fully responsive layout with seasonal design aesthetics.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span>
+          </div>
+          <span class="project-link">Freelance Delivered ✦</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-2">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-done">Completed</span>
+          <span class="project-icon">🖱️</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Smart Mouse with Gyroscope Sensor</h3>
+          <p class="project-desc">Surface-free air-gesture mouse using gyroscope orientation mapping. Low-latency sensor-to-cursor translation for smooth, intuitive control without any surface.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Gyroscope</span><span class="tech-tag">Microcontroller</span><span class="tech-tag">Embedded C</span>
+          </div>
+          <span class="project-link">Embedded Project ✦</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-3">
+        <div class="project-overlay"></div>
+        <div class="project-header">
+          <span class="project-status status-done">Completed</span>
+          <span class="project-icon">🤖</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Line Follower Robot</h3>
+          <p class="project-desc">Autonomous IR-based path tracking robot with zero manual intervention. Precision sensor calibration for smooth and accurate path following in real environments.</p>
+          <div class="project-tech">
+            <span class="tech-tag">IR Sensors</span><span class="tech-tag">Microcontroller</span><span class="tech-tag">Motor Driver</span>
+          </div>
+          <span class="project-link">Embedded Project ✦</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <div class="section-label">04 / Experience</div>
+    <h2 class="section-title reveal">My <span>Journey</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">On-Site Internship · 7 Days</div>
+        <div class="timeline-role">Telecom &amp; Network Intern</div>
+        <div class="timeline-org">BSNL – Bharat Sanchar Nigam Limited</div>
+        <ul class="timeline-bullets">
+          <li>Hands-on exposure to real telecom infrastructure and networking equipment.</li>
+          <li>Observed real-world application of computer networks and communication protocols.</li>
+          <li>Interacted with industry professionals, strengthening understanding of network systems.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">Online Internship · 1 Month</div>
+        <div class="timeline-role">MERN Stack Developer Intern</div>
+        <div class="timeline-org">Novitech</div>
+        <ul class="timeline-bullets">
+          <li>Intensive MERN stack internship — MongoDB, Express.js, React.js, Node.js.</li>
+          <li>Built and deployed full-stack web applications with REST API integration.</li>
+          <li>Strengthened skills in component-based frontend and backend API design.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">Online Internship · 1 Month</div>
+        <div class="timeline-role">UI/UX Design Intern</div>
+        <div class="timeline-org">Novitech</div>
+        <ul class="timeline-bullets">
+          <li>UI/UX design principles, responsive layouts and user experience fundamentals.</li>
+          <li>Designed wireframes, prototypes and design systems to modern standards.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item reveal delay-3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">On-Site Workshop · 3 Days</div>
+        <div class="timeline-role">Full Stack Web Development</div>
+        <div class="timeline-org">Ramakrishna College – Technical Workshop</div>
+        <ul class="timeline-bullets">
+          <li>Core concepts of full stack web development: HTML, CSS, JavaScript, backend.</li>
+          <li>Collaborated on mini-projects, reinforcing end-to-end development workflow.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ── -->
+  <section id="certifications">
+    <div class="section-label">05 / Certifications</div>
+    <h2 class="section-title reveal">Credentials &amp; <span>Certificates</span></h2>
+    <div class="certs-grid">
+      <div class="cert-card reveal delay-1">
+        <div class="cert-icon">🐍</div>
+        <div class="cert-info">
+          <h4>Python Programming</h4>
+          <p>Core Python &amp; scripting fundamentals</p>
+        </div>
+      </div>
+      <div class="cert-card reveal delay-2">
+        <div class="cert-icon">☕</div>
+        <div class="cert-info">
+          <h4>Java Programming</h4>
+          <p>Java core &amp; application development</p>
+        </div>
+      </div>
+      <div class="cert-card reveal delay-3">
+        <div class="cert-icon">🔷</div>
+        <div class="cert-info">
+          <h4>Object Oriented Programming</h4>
+          <p>OOP concepts, design patterns &amp; principles</p>
+        </div>
+      </div>
+      <div class="cert-card reveal delay-1">
+        <div class="cert-icon">🌐</div>
+        <div class="cert-info">
+          <h4>MERN Stack Development</h4>
+          <p>Full-stack web development — Novitech</p>
+        </div>
+      </div>
+      <div class="cert-card reveal delay-2">
+        <div class="cert-icon">🎨</div>
+        <div class="cert-info">
+          <h4>UI/UX Design</h4>
+          <p>User interface &amp; experience design — Novitech</p>
+        </div>
+      </div>
+      <div class="cert-card reveal delay-3">
+        <div class="cert-icon">🛠️</div>
+        <div class="cert-info">
+          <h4>Full Stack Web Development</h4>
+          <p>Workshop Certificate — Ramakrishna College</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="section-label">06 / Contact</div>
+    <h2 class="section-title reveal">Let's <span>Connect</span></h2>
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <h3>Open to Opportunities</h3>
+        <p>Whether you have a project to freelance, a role to offer, or just want to talk tech — I'm always open. Let's build something great together.</p>
+        <div class="contact-items">
+          <a href="mailto:sudarson6066@gmail.com" class="contact-item">
+            <div class="contact-item-icon">✉</div>
+            sudarson6066@gmail.com
+          </a>
+          <a href="tel:+919486812326" class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            +91 94868 12326
+          </a>
+          <a href="https://linkedin.com/in/sudarson6666" target="_blank" class="contact-item">
+            <div class="contact-item-icon">in</div>
+            linkedin.com/in/sudarson6666
+          </a>
+          <a href="https://github.com/sudarson66" target="_blank" class="contact-item">
+            <div class="contact-item-icon">gh</div>
+            github.com/sudarson66
+          </a>
+        </div>
+        <div class="contact-social">
+          <a href="https://linkedin.com/in/sudarson6666" target="_blank" class="social-box" title="LinkedIn">in</a>
+          <a href="https://github.com/sudarson66" target="_blank" class="social-box" title="GitHub">gh</a>
+          <a href="mailto:sudarson6066@gmail.com" class="social-box" title="Email">✉</a>
+        </div>
+      </div>
+      <div class="contact-form reveal delay-2">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" id="fname" placeholder="Your name"/>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="femail" placeholder="your@email.com"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="fsubject" placeholder="What's this about?"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="fmessage" placeholder="Tell me about your project or opportunity..."></textarea>
+        </div>
+        <button class="btn-primary" id="sendBtn" onclick="handleFormSubmit()">Send Message →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-left">&lt;<span>Sudarson C</span> /&gt; — Built with passion. Deployed with purpose.</div>
+    <div class="footer-right">© 2025 · All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
